@@ -38,10 +38,3 @@ btn.addEventListener('click', () => {
     moviePosterUrl.value = '';
     movieYear.value = '';
 });
-
-
-
-
-if(titleInStorage && imageUrlInStorage && yearInStorage) {
-    movieTitleToDisplay.textContent = `${titleInStorage} (${yearInStorage})`;
-}
